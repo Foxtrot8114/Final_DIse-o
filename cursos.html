@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<ul class="menu">
+            <li><a href="inicio.html">Inicio</a></li>
+            <li><a href="registro.html">Registro</a></li>
+            <li><a href="contactos.html">Contactos</a></li>
+            <li><a href="#" id="carrito-link">Carrito (<span id="carrito-count">0</span>)</a></li>
+            </ul>
+<body>
+
+      <h1 class="titulo">Cursos</h1><br>
+
+    <div class="container">
+    <div class="card">
+      <img src="image/java.webp" alt="logo" width="270px">
+      <h3>Curso de Java</h3>
+      <div class="cuerpo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsa magnam ipsum, quo illo sunt optio ab architecto pariatur voluptatibus quae omnis nam debitis temporibus perspiciatis quis harum iusto nulla.</div>
+      <p>Precio: 50 Bs</p>
+      <button class="btn-comprar" data-nombre="Producto 1" data-precio="50">Comprar</button>
+    </div>
+    <div class="card">
+      <img src="image/javascript.jpg" alt="logo" width="270px">
+       <h3>Curso de JavaScript</h3>
+      <div class="cuerpo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsa magnam ipsum, quo illo sunt optio ab architecto pariatur voluptatibus quae omnis nam debitis temporibus perspiciatis quis harum iusto nulla.</div>
+      <p>Precio: 80 Bs</p>
+      <button class="btn-comprar" data-nombre="Producto 2" data-precio="80">Comprar</button>
+    </div>
+    <div class="card">
+      
+      <img src="image/python.jpg" alt="logo" width="270px">    
+      <h3>Curso de Python</h3>
+      <div class="cuerpo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsa magnam ipsum, quo illo sunt optio ab architecto pariatur voluptatibus quae omnis nam debitis temporibus perspiciatis quis harum iusto nulla.</div>
+      <p>Precio: 120 Bs</p>
+      <button class="btn-comprar" data-nombre="Producto 3" data-precio="120">Comprar</button>
+    </div>
+    <div class="card">
+        
+    <img src="image/c.webp" alt="logo" width="270px">
+      <h3>Curso de C++</h3>
+      <div class="cuerpo">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores ipsa magnam ipsum, quo illo sunt optio ab architecto pariatur voluptatibus quae omnis nam debitis temporibus perspiciatis quis harum iusto nulla.</div>
+      <p>Precio: 120 Bs</p>
+      <button class="btn-comprar" data-nombre="Producto 3" data-precio="120">Comprar</button>
+    </div>
+
+  </div>
+
+
+  <div id="carrito-panel" class="carrito-panel">
+    <h2>Carrito</h2>
+    <ul id="carrito-lista"></ul>
+    <p id="subtotal">Total: 0 Bs</p>
+    <button id="btn-proceder">Proceder con la compra</button>
+  </div>
+
+  <script src="script/script.js"></script>   
+</body>
+</html>
